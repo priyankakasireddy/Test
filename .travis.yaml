@@ -1,6 +1,8 @@
 ---
 language: generic
 install: true
+script:
+- mvn clean package
 notifications:
   webhooks:
     - https://deloitte.webhook.office.com/webhookb2/56381282-b613-434f-86e8-3fa37257d786@36da45f1-dd2c-4d1f-af13-5abe46b99921/IncomingWebhook/a62300c789174360835d341a154651bc/c7ea791a-7da7-42bb-8224-58194cc0b32c
