@@ -1,0 +1,8 @@
+{
+  "sampleData": {
+    "153d903a-f6b2-48df-b51c-d50404189e58": {},
+    "fcddb2f4-8fb0-419a-aad8-094851a1ea29": {
+      "payload": "sample_data/json.json"
+    }
+  }
+}

@@ -1,0 +1,805 @@
+{
+  "data": [
+    {
+      "loggerName": "Logger",
+      "threadName": "[MuleRuntime].uber.26: [phm-aph-prchs-ord-ack-eapi-dev].phm-aph-prchs-ord-ack-main-flow.CPU_LITE @de74138",
+      "timestamp": 1614237662129,
+      "message": "event:0147e6f0-773a-11eb-b90f-06c31afdcdce Response received from Papi is : {\n  \"status\": \"Success\",\n  \"code\": \"JNJ101\",\n  \"message\": \"Order Updated Successfully\",\n  \"CARTOrderId\": \"US-TCPTRT012-10247591-01\"\n}",
+      "priority": "INFO",
+      "instanceId": "602d070774eb9251b26f6ede-0"
+    },
+    {
+      "loggerName": "Logger",
+      "threadName": "[MuleRuntime].uber.20: [phm-aph-prchs-ord-ack-eapi-dev].audit-logging-flow.CPU_INTENSIVE @74744b1d",
+      "timestamp": 1614237662151,
+      "message": "event:0147e6f0-773a-11eb-b90f-06c31afdcdce >>>Audit Message On Complete phase <<<  {\n  \"appName\": \"phm-aph-prchs-ord-ack-eapi-dev\",\n  \"flowName\": \"phm-aph-prchs-ord-ack-main-flow\",\n  \"serviceName\": \"phm-aph-prchs-ord-ack Experience API\",\n  \"messageType\": \"audit\",\n  \"integrationType\": \"Real-Time\",\n  \"transactionLevel\": \"EXIT\",\n  \"transactionId\": \"da5e738e-f9c7-4b80-8eac-4c7d6f25385b\",\n  \"coorelationId\": \"0147e6f0-773a-11eb-b90f-06c31afdcdce\",\n  \"businessId\": \"US-TCPTRT012-10247591-01\",\n  \"timestamp\": \"2021-02-25T07:21:02Z\",\n  \"sourceSystem\": \"SAP\",\n  \"targetSystem\": \"Salesforce\",\n  \"isNotificationRequired\": \"No\",\n  \"environment\": \"dev\",\n  \"logInfo\": \"Audit Message On Complete Phase\"\n} ",
+      "priority": "INFO",
+      "instanceId": "602d070774eb9251b26f6ede-0"
+    },
+    {
+      "loggerName": "Logger",
+      "threadName": "[MuleRuntime].uber.26: [phm-aph-prchs-ord-ack-eapi-dev].audit-logging-flow.CPU_LITE @6d6d1c5d",
+      "timestamp": 1614237662452,
+      "message": "event:0147e6f0-773a-11eb-b90f-06c31afdcdce >>> CSF Audit Response<<< {\n  \"status\": \"Success\",\n  \"message\": \"Message published to audit Anypoint MQ\"\n}",
+      "priority": "INFO",
+      "instanceId": "602d070774eb9251b26f6ede-0"
+    },
+    {
+      "loggerName": "Logger",
+      "threadName": "[MuleRuntime].uber.28: [phm-aph-prchs-ord-ack-eapi-dev].phm-aph-prchs-ord-ack-api-flow.CPU_LITE @2155bf0d",
+      "timestamp": 1614237886512,
+      "message": "event:8995da80-773a-11eb-b90f-06c31afdcdce Request Payload : {\"CARTOrderId\":\"US-MACR100-10247592-01\",\"salesOrderNo\":\"0040008696\",\"apheresisPurchaseOrderNo\":\"0600030279\",\"batchNumber\":\"21BC0894\"}",
+      "priority": "INFO",
+      "instanceId": "602d070774eb9251b26f6ede-0"
+    },
+    {
+      "loggerName": "Logger",
+      "threadName": "[MuleRuntime].uber.26: [phm-aph-prchs-ord-ack-eapi-dev].audit-logging-flow.CPU_INTENSIVE @74744b1d",
+      "timestamp": 1614237886520,
+      "message": "event:8995da80-773a-11eb-b90f-06c31afdcdce >>>Audit Message On Initiate phase <<<  {\n  \"appName\": \"phm-aph-prchs-ord-ack-eapi-dev\",\n  \"flowName\": \"phm-aph-prchs-ord-ack-api-flow\",\n  \"serviceName\": \"phm-aph-prchs-ord-ack Experience API\",\n  \"messageType\": \"audit\",\n  \"integrationType\": \"Real-Time\",\n  \"transactionLevel\": \"ENTRY\",\n  \"transactionId\": \"9b9dc081-685c-421b-babf-13b173986d16\",\n  \"coorelationId\": \"8995da80-773a-11eb-b90f-06c31afdcdce\",\n  \"businessId\": \"\",\n  \"timestamp\": \"2021-02-25T07:24:46Z\",\n  \"sourceSystem\": \"SAP\",\n  \"targetSystem\": \"Salesforce\",\n  \"isNotificationRequired\": \"No\",\n  \"environment\": \"dev\",\n  \"logInfo\": \"Audit Message On Initiate Phase\"\n} ",
+      "priority": "INFO",
+      "instanceId": "602d070774eb9251b26f6ede-0"
+    },
+    {
+      "loggerName": "org.mule.runtime.core.internal.processor.LoggerMessageProcessor",
+      "threadName": "[MuleRuntime].uber.30: [phm-aph-prchs-ord-ack-eapi-dev].phm-aph-prchs-ord-ack-main-flow.CPU_LITE @de74138",
+      "timestamp": 1614237886527,
+      "message": "event:8995da80-773a-11eb-b90f-06c31afdcdce Correlation Id is : corrId123",
+      "priority": "INFO",
+      "instanceId": "602d070774eb9251b26f6ede-0"
+    },
+    {
+      "loggerName": "Logger",
+      "threadName": "[MuleRuntime].uber.29: [phm-aph-prchs-ord-ack-eapi-dev].audit-logging-flow.CPU_LITE @6d6d1c5d",
+      "timestamp": 1614237886665,
+      "message": "event:8995da80-773a-11eb-b90f-06c31afdcdce >>> CSF Audit Response<<< {\n  \"status\": \"Success\",\n  \"message\": \"Message published to audit Anypoint MQ\"\n}",
+      "priority": "INFO",
+      "instanceId": "602d070774eb9251b26f6ede-0"
+    },
+    {
+      "loggerName": "Logger",
+      "threadName": "[MuleRuntime].uber.30: [phm-aph-prchs-ord-ack-eapi-dev].phm-aph-prchs-ord-ack-main-flow.CPU_LITE @de74138",
+      "timestamp": 1614237888563,
+      "message": "event:8995da80-773a-11eb-b90f-06c31afdcdce Response received from Papi is : {\n  \"status\": \"Success\",\n  \"code\": \"JNJ101\",\n  \"message\": \"Order Updated Successfully\",\n  \"CARTOrderId\": \"US-MACR100-10247592-01\"\n}",
+      "priority": "INFO",
+      "instanceId": "602d070774eb9251b26f6ede-0"
+    },
+    {
+      "loggerName": "Logger",
+      "threadName": "[MuleRuntime].uber.29: [phm-aph-prchs-ord-ack-eapi-dev].audit-logging-flow.CPU_INTENSIVE @74744b1d",
+      "timestamp": 1614237888573,
+      "message": "event:8995da80-773a-11eb-b90f-06c31afdcdce >>>Audit Message On Complete phase <<<  {\n  \"appName\": \"phm-aph-prchs-ord-ack-eapi-dev\",\n  \"flowName\": \"phm-aph-prchs-ord-ack-main-flow\",\n  \"serviceName\": \"phm-aph-prchs-ord-ack Experience API\",\n  \"messageType\": \"audit\",\n  \"integrationType\": \"Real-Time\",\n  \"transactionLevel\": \"EXIT\",\n  \"transactionId\": \"9b9dc081-685c-421b-babf-13b173986d16\",\n  \"coorelationId\": \"8995da80-773a-11eb-b90f-06c31afdcdce\",\n  \"businessId\": \"US-MACR100-10247592-01\",\n  \"timestamp\": \"2021-02-25T07:24:48Z\",\n  \"sourceSystem\": \"SAP\",\n  \"targetSystem\": \"Salesforce\",\n  \"isNotificationRequired\": \"No\",\n  \"environment\": \"dev\",\n  \"logInfo\": \"Audit Message On Complete Phase\"\n} ",
+      "priority": "INFO",
+      "instanceId": "602d070774eb9251b26f6ede-0"
+    },
+    {
+      "loggerName": "Logger",
+      "threadName": "[MuleRuntime].uber.26: [phm-aph-prchs-ord-ack-eapi-dev].audit-logging-flow.CPU_LITE @6d6d1c5d",
+      "timestamp": 1614237888713,
+      "message": "event:8995da80-773a-11eb-b90f-06c31afdcdce >>> CSF Audit Response<<< {\n  \"status\": \"Success\",\n  \"message\": \"Message published to audit Anypoint MQ\"\n}",
+      "priority": "INFO",
+      "instanceId": "602d070774eb9251b26f6ede-0"
+    },
+    {
+      "loggerName": "Logger",
+      "threadName": "[MuleRuntime].uber.29: [phm-aph-prchs-ord-ack-eapi-dev].phm-aph-prchs-ord-ack-api-flow.CPU_LITE @2155bf0d",
+      "timestamp": 1614237894416,
+      "message": "event:8e4be880-773a-11eb-b90f-06c31afdcdce Request Payload : {\"CARTOrderId\":\"US-MACR100-10247590-01\",\"salesOrderNo\":\"0040008697\",\"apheresisPurchaseOrderNo\":\"0600030366\",\"batchNumber\":\"21BC0895\"}",
+      "priority": "INFO",
+      "instanceId": "602d070774eb9251b26f6ede-0"
+    },
+    {
+      "loggerName": "org.mule.runtime.core.internal.processor.LoggerMessageProcessor",
+      "threadName": "[MuleRuntime].uber.30: [phm-aph-prchs-ord-ack-eapi-dev].phm-aph-prchs-ord-ack-main-flow.CPU_LITE @de74138",
+      "timestamp": 1614237894423,
+      "message": "event:8e4be880-773a-11eb-b90f-06c31afdcdce Correlation Id is : corrId123",
+      "priority": "INFO",
+      "instanceId": "602d070774eb9251b26f6ede-0"
+    },
+    {
+      "loggerName": "Logger",
+      "threadName": "[MuleRuntime].uber.26: [phm-aph-prchs-ord-ack-eapi-dev].audit-logging-flow.CPU_INTENSIVE @74744b1d",
+      "timestamp": 1614237894429,
+      "message": "event:8e4be880-773a-11eb-b90f-06c31afdcdce >>>Audit Message On Initiate phase <<<  {\n  \"appName\": \"phm-aph-prchs-ord-ack-eapi-dev\",\n  \"flowName\": \"phm-aph-prchs-ord-ack-api-flow\",\n  \"serviceName\": \"phm-aph-prchs-ord-ack Experience API\",\n  \"messageType\": \"audit\",\n  \"integrationType\": \"Real-Time\",\n  \"transactionLevel\": \"ENTRY\",\n  \"transactionId\": \"e4f1a73b-7aba-4d33-9430-e5081900d2fa\",\n  \"coorelationId\": \"8e4be880-773a-11eb-b90f-06c31afdcdce\",\n  \"businessId\": \"\",\n  \"timestamp\": \"2021-02-25T07:24:54Z\",\n  \"sourceSystem\": \"SAP\",\n  \"targetSystem\": \"Salesforce\",\n  \"isNotificationRequired\": \"No\",\n  \"environment\": \"dev\",\n  \"logInfo\": \"Audit Message On Initiate Phase\"\n} ",
+      "priority": "INFO",
+      "instanceId": "602d070774eb9251b26f6ede-0"
+    },
+    {
+      "loggerName": "Logger",
+      "threadName": "[MuleRuntime].uber.28: [phm-aph-prchs-ord-ack-eapi-dev].audit-logging-flow.CPU_LITE @6d6d1c5d",
+      "timestamp": 1614237894550,
+      "message": "event:8e4be880-773a-11eb-b90f-06c31afdcdce >>> CSF Audit Response<<< {\n  \"status\": \"Success\",\n  \"message\": \"Message published to audit Anypoint MQ\"\n}",
+      "priority": "INFO",
+      "instanceId": "602d070774eb9251b26f6ede-0"
+    },
+    {
+      "loggerName": "Logger",
+      "threadName": "[MuleRuntime].uber.28: [phm-aph-prchs-ord-ack-eapi-dev].phm-aph-prchs-ord-ack-main-flow.CPU_LITE @de74138",
+      "timestamp": 1614237896243,
+      "message": "event:8e4be880-773a-11eb-b90f-06c31afdcdce Response received from Papi is : {\n  \"status\": \"Success\",\n  \"code\": \"JNJ101\",\n  \"message\": \"Order Updated Successfully\",\n  \"CARTOrderId\": \"US-MACR100-10247590-01\"\n}",
+      "priority": "INFO",
+      "instanceId": "602d070774eb9251b26f6ede-0"
+    },
+    {
+      "loggerName": "Logger",
+      "threadName": "[MuleRuntime].uber.26: [phm-aph-prchs-ord-ack-eapi-dev].audit-logging-flow.CPU_INTENSIVE @74744b1d",
+      "timestamp": 1614237896252,
+      "message": "event:8e4be880-773a-11eb-b90f-06c31afdcdce >>>Audit Message On Complete phase <<<  {\n  \"appName\": \"phm-aph-prchs-ord-ack-eapi-dev\",\n  \"flowName\": \"phm-aph-prchs-ord-ack-main-flow\",\n  \"serviceName\": \"phm-aph-prchs-ord-ack Experience API\",\n  \"messageType\": \"audit\",\n  \"integrationType\": \"Real-Time\",\n  \"transactionLevel\": \"EXIT\",\n  \"transactionId\": \"e4f1a73b-7aba-4d33-9430-e5081900d2fa\",\n  \"coorelationId\": \"8e4be880-773a-11eb-b90f-06c31afdcdce\",\n  \"businessId\": \"US-MACR100-10247590-01\",\n  \"timestamp\": \"2021-02-25T07:24:56Z\",\n  \"sourceSystem\": \"SAP\",\n  \"targetSystem\": \"Salesforce\",\n  \"isNotificationRequired\": \"No\",\n  \"environment\": \"dev\",\n  \"logInfo\": \"Audit Message On Complete Phase\"\n} ",
+      "priority": "INFO",
+      "instanceId": "602d070774eb9251b26f6ede-0"
+    },
+    {
+      "loggerName": "Logger",
+      "threadName": "[MuleRuntime].uber.28: [phm-aph-prchs-ord-ack-eapi-dev].audit-logging-flow.CPU_LITE @6d6d1c5d",
+      "timestamp": 1614237896367,
+      "message": "event:8e4be880-773a-11eb-b90f-06c31afdcdce >>> CSF Audit Response<<< {\n  \"status\": \"Success\",\n  \"message\": \"Message published to audit Anypoint MQ\"\n}",
+      "priority": "INFO",
+      "instanceId": "602d070774eb9251b26f6ede-0"
+    },
+    {
+      "loggerName": "com.mulesoft.mule.runtime.gw.deployment.runnable.ApisRunnable",
+      "threadName": "agw-policy-polling.01",
+      "timestamp": 1614239551505,
+      "message": "Failed to retrieve API information for API 'API phm-slot-availability-sapi-v1-v1:16234991 (16234991)'. This request will be retried after some backoff time. Reason: com.mulesoft.mule.runtime.gw.client.exception.HttpResponseException: Unable to get API information from API Platform",
+      "priority": "WARN",
+      "instanceId": "602d070774eb9251b26f6ede-0"
+    },
+    {
+      "loggerName": "com.mulesoft.mule.runtime.gw.deployment.runnable.ClientsRunnable",
+      "threadName": "agw-contract-polling.01",
+      "timestamp": 1614243189496,
+      "message": "Failed to obtain contracts for API 'API phm-slot-availability-sapi-v1-v1:16234991 (16234991)'. This request will be retried after some backoff time. Reason: com.mulesoft.mule.runtime.gw.client.exception.HttpResponseException: Unable to retrieve contracts for 16234991",
+      "priority": "WARN",
+      "instanceId": "602d070774eb9251b26f6ede-0"
+    },
+    {
+      "loggerName": "com.mulesoft.mule.runtime.gw.deployment.runnable.ClientsRunnable",
+      "threadName": "agw-contract-polling.01",
+      "timestamp": 1614246846548,
+      "message": "Failed to obtain contracts for API 'API phm-slot-availability-sapi-v1-v1:16234991 (16234991)'. This request will be retried after some backoff time. Reason: com.mulesoft.mule.runtime.gw.client.exception.HttpResponseException: Unable to retrieve contracts for 16234991",
+      "priority": "WARN",
+      "instanceId": "602d070774eb9251b26f6ede-0"
+    },
+    {
+      "loggerName": "com.mulesoft.mule.runtime.gw.deployment.runnable.ClientsRunnable",
+      "threadName": "agw-contract-polling.01",
+      "timestamp": 1614250495135,
+      "message": "Failed to obtain contracts for API 'API phm-slot-availability-sapi-v1-v1:16234991 (16234991)'. This request will be retried after some backoff time. Reason: com.mulesoft.mule.runtime.gw.client.exception.HttpResponseException: Unable to retrieve contracts for 16234991",
+      "priority": "WARN",
+      "instanceId": "602d070774eb9251b26f6ede-0"
+    },
+    {
+      "loggerName": "com.mulesoft.mule.runtime.gw.deployment.runnable.ClientsRunnable",
+      "threadName": "agw-contract-polling.01",
+      "timestamp": 1614254148882,
+      "message": "Failed to obtain contracts for API 'API phm-slot-availability-sapi-v1-v1:16234991 (16234991)'. This request will be retried after some backoff time. Reason: com.mulesoft.mule.runtime.gw.client.exception.HttpResponseException: Unable to retrieve contracts for 16234991",
+      "priority": "WARN",
+      "instanceId": "602d070774eb9251b26f6ede-0"
+    },
+    {
+      "loggerName": "com.mulesoft.mule.runtime.gw.deployment.runnable.ClientsRunnable",
+      "threadName": "agw-contract-polling.01",
+      "timestamp": 1614257792912,
+      "message": "Failed to obtain contracts for API 'API phm-slot-availability-sapi-v1-v1:16234991 (16234991)'. This request will be retried after some backoff time. Reason: com.mulesoft.mule.runtime.gw.client.exception.HttpResponseException: Unable to retrieve contracts for 16234991",
+      "priority": "WARN",
+      "instanceId": "602d070774eb9251b26f6ede-0"
+    },
+    {
+      "loggerName": "com.mulesoft.mule.runtime.gw.deployment.runnable.ApisRunnable",
+      "threadName": "agw-policy-polling.01",
+      "timestamp": 1614261325619,
+      "message": "Failed to retrieve API information for API 'API phm-slot-availability-sapi-v1-v1:16234991 (16234991)'. This request will be retried after some backoff time. Reason: com.mulesoft.mule.runtime.gw.client.exception.HttpResponseException: Unable to get API information from API Platform",
+      "priority": "WARN",
+      "instanceId": "602d070774eb9251b26f6ede-0"
+    },
+    {
+      "loggerName": "com.mulesoft.mule.runtime.gw.deployment.runnable.ClientsRunnable",
+      "threadName": "agw-contract-polling.01",
+      "timestamp": 1614263213978,
+      "message": "Failed to obtain contracts for API 'API phm-slot-availability-sapi-v1-v1:16234991 (16234991)'. This request will be retried after some backoff time. Reason: com.mulesoft.mule.runtime.gw.client.exception.HttpResponseException: Unable to retrieve contracts for 16234991",
+      "priority": "WARN",
+      "instanceId": "602d070774eb9251b26f6ede-0"
+    },
+    {
+      "loggerName": "com.mulesoft.mule.runtime.gw.deployment.runnable.ClientsRunnable",
+      "threadName": "agw-contract-polling.01",
+      "timestamp": 1614266846928,
+      "message": "Failed to obtain contracts for API 'API phm-slot-availability-sapi-v1-v1:16234991 (16234991)'. This request will be retried after some backoff time. Reason: com.mulesoft.mule.runtime.gw.client.exception.HttpResponseException: Unable to retrieve contracts for 16234991",
+      "priority": "WARN",
+      "instanceId": "602d070774eb9251b26f6ede-0"
+    },
+    {
+      "loggerName": "Logger",
+      "threadName": "[MuleRuntime].uber.31: [phm-aph-prchs-ord-ack-eapi-dev].phm-aph-prchs-ord-ack-api-flow.CPU_LITE @2155bf0d",
+      "timestamp": 1614267966076,
+      "message": "event:92664ff0-7780-11eb-b90f-06c31afdcdce Request Payload : {\r\n  \"CARTOrderId\": \"US-TCPTRT012-10247598-01\",\r\n  \"salesOrderNo\": \"934853485784\",\r\n  \"apheresisPurchaseOrderNo\": \"3764376474\",\r\n  \"batchNumber\": \"3847583848\"\r\n}",
+      "priority": "INFO",
+      "instanceId": "602d070774eb9251b26f6ede-0"
+    },
+    {
+      "loggerName": "Logger",
+      "threadName": "[MuleRuntime].uber.28: [phm-aph-prchs-ord-ack-eapi-dev].audit-logging-flow.CPU_INTENSIVE @74744b1d",
+      "timestamp": 1614267966085,
+      "message": "event:92664ff0-7780-11eb-b90f-06c31afdcdce >>>Audit Message On Initiate phase <<<  {\n  \"appName\": \"phm-aph-prchs-ord-ack-eapi-dev\",\n  \"flowName\": \"phm-aph-prchs-ord-ack-api-flow\",\n  \"serviceName\": \"phm-aph-prchs-ord-ack Experience API\",\n  \"messageType\": \"audit\",\n  \"integrationType\": \"Real-Time\",\n  \"transactionLevel\": \"ENTRY\",\n  \"transactionId\": \"8484c152-1236-491d-97c7-3db22a9e5b2e\",\n  \"coorelationId\": \"92664ff0-7780-11eb-b90f-06c31afdcdce\",\n  \"businessId\": \"\",\n  \"timestamp\": \"2021-02-25T15:46:06Z\",\n  \"sourceSystem\": \"SAP\",\n  \"targetSystem\": \"Salesforce\",\n  \"isNotificationRequired\": \"No\",\n  \"environment\": \"dev\",\n  \"logInfo\": \"Audit Message On Initiate Phase\"\n} ",
+      "priority": "INFO",
+      "instanceId": "602d070774eb9251b26f6ede-0"
+    },
+    {
+      "loggerName": "org.mule.runtime.core.internal.processor.LoggerMessageProcessor",
+      "threadName": "[MuleRuntime].uber.32: [phm-aph-prchs-ord-ack-eapi-dev].phm-aph-prchs-ord-ack-main-flow.CPU_LITE @de74138",
+      "timestamp": 1614267966091,
+      "message": "event:92664ff0-7780-11eb-b90f-06c31afdcdce Correlation Id is : corrId123",
+      "priority": "INFO",
+      "instanceId": "602d070774eb9251b26f6ede-0"
+    },
+    {
+      "loggerName": "Logger",
+      "threadName": "[MuleRuntime].uber.33: [phm-aph-prchs-ord-ack-eapi-dev].audit-logging-flow.CPU_LITE @6d6d1c5d",
+      "timestamp": 1614267966474,
+      "message": "event:92664ff0-7780-11eb-b90f-06c31afdcdce >>> CSF Audit Response<<< {\n  \"status\": \"Success\",\n  \"message\": \"Message published to audit Anypoint MQ\"\n}",
+      "priority": "INFO",
+      "instanceId": "602d070774eb9251b26f6ede-0"
+    },
+    {
+      "loggerName": "Logger",
+      "threadName": "[MuleRuntime].uber.33: [phm-aph-prchs-ord-ack-eapi-dev].phm-aph-prchs-ord-ack-main-flow.CPU_LITE @de74138",
+      "timestamp": 1614267969469,
+      "message": "event:92664ff0-7780-11eb-b90f-06c31afdcdce Response received from Papi is : {\n  \"status\": \"Success\",\n  \"code\": \"JNJ101\",\n  \"message\": \"Order Updated Successfully\",\n  \"CARTOrderId\": \"US-TCPTRT012-10247598-01\"\n}",
+      "priority": "INFO",
+      "instanceId": "602d070774eb9251b26f6ede-0"
+    },
+    {
+      "loggerName": "Logger",
+      "threadName": "[MuleRuntime].uber.32: [phm-aph-prchs-ord-ack-eapi-dev].audit-logging-flow.CPU_INTENSIVE @74744b1d",
+      "timestamp": 1614267969480,
+      "message": "event:92664ff0-7780-11eb-b90f-06c31afdcdce >>>Audit Message On Complete phase <<<  {\n  \"appName\": \"phm-aph-prchs-ord-ack-eapi-dev\",\n  \"flowName\": \"phm-aph-prchs-ord-ack-main-flow\",\n  \"serviceName\": \"phm-aph-prchs-ord-ack Experience API\",\n  \"messageType\": \"audit\",\n  \"integrationType\": \"Real-Time\",\n  \"transactionLevel\": \"EXIT\",\n  \"transactionId\": \"8484c152-1236-491d-97c7-3db22a9e5b2e\",\n  \"coorelationId\": \"92664ff0-7780-11eb-b90f-06c31afdcdce\",\n  \"businessId\": \"US-TCPTRT012-10247598-01\",\n  \"timestamp\": \"2021-02-25T15:46:09Z\",\n  \"sourceSystem\": \"SAP\",\n  \"targetSystem\": \"Salesforce\",\n  \"isNotificationRequired\": \"No\",\n  \"environment\": \"dev\",\n  \"logInfo\": \"Audit Message On Complete Phase\"\n} ",
+      "priority": "INFO",
+      "instanceId": "602d070774eb9251b26f6ede-0"
+    },
+    {
+      "loggerName": "Logger",
+      "threadName": "[MuleRuntime].uber.28: [phm-aph-prchs-ord-ack-eapi-dev].audit-logging-flow.CPU_LITE @6d6d1c5d",
+      "timestamp": 1614267969701,
+      "message": "event:92664ff0-7780-11eb-b90f-06c31afdcdce >>> CSF Audit Response<<< {\n  \"status\": \"Success\",\n  \"message\": \"Message published to audit Anypoint MQ\"\n}",
+      "priority": "INFO",
+      "instanceId": "602d070774eb9251b26f6ede-0"
+    },
+    {
+      "loggerName": "Logger",
+      "threadName": "[MuleRuntime].uber.34: [phm-aph-prchs-ord-ack-eapi-dev].phm-aph-prchs-ord-ack-api-flow.CPU_LITE @2155bf0d",
+      "timestamp": 1614269943352,
+      "message": "event:2cf15020-7785-11eb-b90f-06c31afdcdce Request Payload : {\r\n  \"CARTOrderId\": \"US-TCPTRT012-10247602-01\",\r\n  \"salesOrderNo\": \"338457693487\",\r\n  \"apheresisPurchaseOrderNo\": \"9837646756\",\r\n  \"batchNumber\": \"7347378374\"\r\n}",
+      "priority": "INFO",
+      "instanceId": "602d070774eb9251b26f6ede-0"
+    },
+    {
+      "loggerName": "org.mule.runtime.core.internal.processor.LoggerMessageProcessor",
+      "threadName": "[MuleRuntime].uber.35: [phm-aph-prchs-ord-ack-eapi-dev].phm-aph-prchs-ord-ack-main-flow.CPU_LITE @de74138",
+      "timestamp": 1614269943362,
+      "message": "event:2cf15020-7785-11eb-b90f-06c31afdcdce Correlation Id is : corrId123",
+      "priority": "INFO",
+      "instanceId": "602d070774eb9251b26f6ede-0"
+    },
+    {
+      "loggerName": "Logger",
+      "threadName": "[MuleRuntime].uber.28: [phm-aph-prchs-ord-ack-eapi-dev].audit-logging-flow.CPU_INTENSIVE @74744b1d",
+      "timestamp": 1614269943363,
+      "message": "event:2cf15020-7785-11eb-b90f-06c31afdcdce >>>Audit Message On Initiate phase <<<  {\n  \"appName\": \"phm-aph-prchs-ord-ack-eapi-dev\",\n  \"flowName\": \"phm-aph-prchs-ord-ack-api-flow\",\n  \"serviceName\": \"phm-aph-prchs-ord-ack Experience API\",\n  \"messageType\": \"audit\",\n  \"integrationType\": \"Real-Time\",\n  \"transactionLevel\": \"ENTRY\",\n  \"transactionId\": \"fbc5d12e-4de6-46c4-bce3-b7e200e9d71c\",\n  \"coorelationId\": \"2cf15020-7785-11eb-b90f-06c31afdcdce\",\n  \"businessId\": \"\",\n  \"timestamp\": \"2021-02-25T16:19:03Z\",\n  \"sourceSystem\": \"SAP\",\n  \"targetSystem\": \"Salesforce\",\n  \"isNotificationRequired\": \"No\",\n  \"environment\": \"dev\",\n  \"logInfo\": \"Audit Message On Initiate Phase\"\n} ",
+      "priority": "INFO",
+      "instanceId": "602d070774eb9251b26f6ede-0"
+    },
+    {
+      "loggerName": "Logger",
+      "threadName": "[MuleRuntime].uber.34: [phm-aph-prchs-ord-ack-eapi-dev].audit-logging-flow.CPU_LITE @6d6d1c5d",
+      "timestamp": 1614269943625,
+      "message": "event:2cf15020-7785-11eb-b90f-06c31afdcdce >>> CSF Audit Response<<< {\n  \"status\": \"Success\",\n  \"message\": \"Message published to audit Anypoint MQ\"\n}",
+      "priority": "INFO",
+      "instanceId": "602d070774eb9251b26f6ede-0"
+    },
+    {
+      "loggerName": "Logger",
+      "threadName": "[MuleRuntime].uber.34: [phm-aph-prchs-ord-ack-eapi-dev].phm-aph-prchs-ord-ack-main-flow.CPU_LITE @de74138",
+      "timestamp": 1614269947270,
+      "message": "event:2cf15020-7785-11eb-b90f-06c31afdcdce Response received from Papi is : {\n  \"status\": \"Success\",\n  \"code\": \"JNJ101\",\n  \"message\": \"Order Updated Successfully\",\n  \"CARTOrderId\": \"US-TCPTRT012-10247602-01\"\n}",
+      "priority": "INFO",
+      "instanceId": "602d070774eb9251b26f6ede-0"
+    },
+    {
+      "loggerName": "Logger",
+      "threadName": "[MuleRuntime].uber.35: [phm-aph-prchs-ord-ack-eapi-dev].audit-logging-flow.CPU_INTENSIVE @74744b1d",
+      "timestamp": 1614269947284,
+      "message": "event:2cf15020-7785-11eb-b90f-06c31afdcdce >>>Audit Message On Complete phase <<<  {\n  \"appName\": \"phm-aph-prchs-ord-ack-eapi-dev\",\n  \"flowName\": \"phm-aph-prchs-ord-ack-main-flow\",\n  \"serviceName\": \"phm-aph-prchs-ord-ack Experience API\",\n  \"messageType\": \"audit\",\n  \"integrationType\": \"Real-Time\",\n  \"transactionLevel\": \"EXIT\",\n  \"transactionId\": \"fbc5d12e-4de6-46c4-bce3-b7e200e9d71c\",\n  \"coorelationId\": \"2cf15020-7785-11eb-b90f-06c31afdcdce\",\n  \"businessId\": \"US-TCPTRT012-10247602-01\",\n  \"timestamp\": \"2021-02-25T16:19:07Z\",\n  \"sourceSystem\": \"SAP\",\n  \"targetSystem\": \"Salesforce\",\n  \"isNotificationRequired\": \"No\",\n  \"environment\": \"dev\",\n  \"logInfo\": \"Audit Message On Complete Phase\"\n} ",
+      "priority": "INFO",
+      "instanceId": "602d070774eb9251b26f6ede-0"
+    },
+    {
+      "loggerName": "Logger",
+      "threadName": "[MuleRuntime].uber.34: [phm-aph-prchs-ord-ack-eapi-dev].audit-logging-flow.CPU_LITE @6d6d1c5d",
+      "timestamp": 1614269947564,
+      "message": "event:2cf15020-7785-11eb-b90f-06c31afdcdce >>> CSF Audit Response<<< {\n  \"status\": \"Success\",\n  \"message\": \"Message published to audit Anypoint MQ\"\n}",
+      "priority": "INFO",
+      "instanceId": "602d070774eb9251b26f6ede-0"
+    },
+    {
+      "loggerName": "com.mulesoft.mule.runtime.gw.deployment.runnable.ClientsRunnable",
+      "threadName": "agw-contract-polling.01",
+      "timestamp": 1614270473114,
+      "message": "Failed to obtain contracts for API 'API phm-slot-availability-sapi-v1-v1:16234991 (16234991)'. This request will be retried after some backoff time. Reason: com.mulesoft.mule.runtime.gw.client.exception.HttpResponseException: Unable to retrieve contracts for 16234991",
+      "priority": "WARN",
+      "instanceId": "602d070774eb9251b26f6ede-0"
+    },
+    {
+      "loggerName": "Logger",
+      "threadName": "[MuleRuntime].uber.36: [phm-aph-prchs-ord-ack-eapi-dev].phm-aph-prchs-ord-ack-api-flow.CPU_LITE @2155bf0d",
+      "timestamp": 1614271076628,
+      "message": "event:d06f56a0-7787-11eb-b90f-06c31afdcdce Request Payload : {\r\n  \"CARTOrderId\": \"US-TCPTRT012-10247603-01\",\r\n  \"salesOrderNo\": \"832479238741\",\r\n  \"apheresisPurchaseOrderNo\": \"8734843783\",\r\n  \"batchNumber\": \"8787348388\"\r\n}",
+      "priority": "INFO",
+      "instanceId": "602d070774eb9251b26f6ede-0"
+    },
+    {
+      "loggerName": "org.mule.runtime.core.internal.processor.LoggerMessageProcessor",
+      "threadName": "[MuleRuntime].uber.37: [phm-aph-prchs-ord-ack-eapi-dev].phm-aph-prchs-ord-ack-main-flow.CPU_LITE @de74138",
+      "timestamp": 1614271076637,
+      "message": "event:d06f56a0-7787-11eb-b90f-06c31afdcdce Correlation Id is : corrId123",
+      "priority": "INFO",
+      "instanceId": "602d070774eb9251b26f6ede-0"
+    },
+    {
+      "loggerName": "Logger",
+      "threadName": "[MuleRuntime].uber.34: [phm-aph-prchs-ord-ack-eapi-dev].audit-logging-flow.CPU_INTENSIVE @74744b1d",
+      "timestamp": 1614271076639,
+      "message": "event:d06f56a0-7787-11eb-b90f-06c31afdcdce >>>Audit Message On Initiate phase <<<  {\n  \"appName\": \"phm-aph-prchs-ord-ack-eapi-dev\",\n  \"flowName\": \"phm-aph-prchs-ord-ack-api-flow\",\n  \"serviceName\": \"phm-aph-prchs-ord-ack Experience API\",\n  \"messageType\": \"audit\",\n  \"integrationType\": \"Real-Time\",\n  \"transactionLevel\": \"ENTRY\",\n  \"transactionId\": \"40a1225c-ac30-4d04-ace0-61d81cde95b0\",\n  \"coorelationId\": \"d06f56a0-7787-11eb-b90f-06c31afdcdce\",\n  \"businessId\": \"\",\n  \"timestamp\": \"2021-02-25T16:37:56Z\",\n  \"sourceSystem\": \"SAP\",\n  \"targetSystem\": \"Salesforce\",\n  \"isNotificationRequired\": \"No\",\n  \"environment\": \"dev\",\n  \"logInfo\": \"Audit Message On Initiate Phase\"\n} ",
+      "priority": "INFO",
+      "instanceId": "602d070774eb9251b26f6ede-0"
+    },
+    {
+      "loggerName": "Logger",
+      "threadName": "[MuleRuntime].uber.38: [phm-aph-prchs-ord-ack-eapi-dev].audit-logging-flow.CPU_LITE @6d6d1c5d",
+      "timestamp": 1614271076949,
+      "message": "event:d06f56a0-7787-11eb-b90f-06c31afdcdce >>> CSF Audit Response<<< {\n  \"status\": \"Success\",\n  \"message\": \"Message published to audit Anypoint MQ\"\n}",
+      "priority": "INFO",
+      "instanceId": "602d070774eb9251b26f6ede-0"
+    },
+    {
+      "loggerName": "Logger",
+      "threadName": "[MuleRuntime].uber.38: [phm-aph-prchs-ord-ack-eapi-dev].phm-aph-prchs-ord-ack-main-flow.CPU_LITE @de74138",
+      "timestamp": 1614271079763,
+      "message": "event:d06f56a0-7787-11eb-b90f-06c31afdcdce Response received from Papi is : {\n  \"status\": \"Success\",\n  \"code\": \"JNJ101\",\n  \"message\": \"Order Updated Successfully\",\n  \"CARTOrderId\": \"US-TCPTRT012-10247603-01\"\n}",
+      "priority": "INFO",
+      "instanceId": "602d070774eb9251b26f6ede-0"
+    },
+    {
+      "loggerName": "Logger",
+      "threadName": "[MuleRuntime].uber.34: [phm-aph-prchs-ord-ack-eapi-dev].audit-logging-flow.CPU_INTENSIVE @74744b1d",
+      "timestamp": 1614271079773,
+      "message": "event:d06f56a0-7787-11eb-b90f-06c31afdcdce >>>Audit Message On Complete phase <<<  {\n  \"appName\": \"phm-aph-prchs-ord-ack-eapi-dev\",\n  \"flowName\": \"phm-aph-prchs-ord-ack-main-flow\",\n  \"serviceName\": \"phm-aph-prchs-ord-ack Experience API\",\n  \"messageType\": \"audit\",\n  \"integrationType\": \"Real-Time\",\n  \"transactionLevel\": \"EXIT\",\n  \"transactionId\": \"40a1225c-ac30-4d04-ace0-61d81cde95b0\",\n  \"coorelationId\": \"d06f56a0-7787-11eb-b90f-06c31afdcdce\",\n  \"businessId\": \"US-TCPTRT012-10247603-01\",\n  \"timestamp\": \"2021-02-25T16:37:59Z\",\n  \"sourceSystem\": \"SAP\",\n  \"targetSystem\": \"Salesforce\",\n  \"isNotificationRequired\": \"No\",\n  \"environment\": \"dev\",\n  \"logInfo\": \"Audit Message On Complete Phase\"\n} ",
+      "priority": "INFO",
+      "instanceId": "602d070774eb9251b26f6ede-0"
+    },
+    {
+      "loggerName": "Logger",
+      "threadName": "[MuleRuntime].uber.38: [phm-aph-prchs-ord-ack-eapi-dev].audit-logging-flow.CPU_LITE @6d6d1c5d",
+      "timestamp": 1614271080106,
+      "message": "event:d06f56a0-7787-11eb-b90f-06c31afdcdce >>> CSF Audit Response<<< {\n  \"status\": \"Success\",\n  \"message\": \"Message published to audit Anypoint MQ\"\n}",
+      "priority": "INFO",
+      "instanceId": "602d070774eb9251b26f6ede-0"
+    },
+    {
+      "loggerName": "Logger",
+      "threadName": "[MuleRuntime].uber.39: [phm-aph-prchs-ord-ack-eapi-dev].phm-aph-prchs-ord-ack-api-flow.CPU_LITE @2155bf0d",
+      "timestamp": 1614272274089,
+      "message": "event:9a2d3be0-778a-11eb-b90f-06c31afdcdce Request Payload : {\r\n  \"CARTOrderId\": \"US-TCPTRT012-10247604-01\",\r\n  \"salesOrderNo\": \"832479238742\",\r\n  \"apheresisPurchaseOrderNo\": \"8734843784\",\r\n  \"batchNumber\": \"8787348381\"\r\n}",
+      "priority": "INFO",
+      "instanceId": "602d070774eb9251b26f6ede-0"
+    },
+    {
+      "loggerName": "org.mule.runtime.core.internal.processor.LoggerMessageProcessor",
+      "threadName": "[MuleRuntime].uber.38: [phm-aph-prchs-ord-ack-eapi-dev].phm-aph-prchs-ord-ack-main-flow.CPU_LITE @de74138",
+      "timestamp": 1614272274095,
+      "message": "event:9a2d3be0-778a-11eb-b90f-06c31afdcdce Correlation Id is : corrId123",
+      "priority": "INFO",
+      "instanceId": "602d070774eb9251b26f6ede-0"
+    },
+    {
+      "loggerName": "Logger",
+      "threadName": "[MuleRuntime].uber.41: [phm-aph-prchs-ord-ack-eapi-dev].audit-logging-flow.CPU_INTENSIVE @74744b1d",
+      "timestamp": 1614272274101,
+      "message": "event:9a2d3be0-778a-11eb-b90f-06c31afdcdce >>>Audit Message On Initiate phase <<<  {\n  \"appName\": \"phm-aph-prchs-ord-ack-eapi-dev\",\n  \"flowName\": \"phm-aph-prchs-ord-ack-api-flow\",\n  \"serviceName\": \"phm-aph-prchs-ord-ack Experience API\",\n  \"messageType\": \"audit\",\n  \"integrationType\": \"Real-Time\",\n  \"transactionLevel\": \"ENTRY\",\n  \"transactionId\": \"0b091f89-047e-473d-a042-0521143b23b8\",\n  \"coorelationId\": \"9a2d3be0-778a-11eb-b90f-06c31afdcdce\",\n  \"businessId\": \"\",\n  \"timestamp\": \"2021-02-25T16:57:54Z\",\n  \"sourceSystem\": \"SAP\",\n  \"targetSystem\": \"Salesforce\",\n  \"isNotificationRequired\": \"No\",\n  \"environment\": \"dev\",\n  \"logInfo\": \"Audit Message On Initiate Phase\"\n} ",
+      "priority": "INFO",
+      "instanceId": "602d070774eb9251b26f6ede-0"
+    },
+    {
+      "loggerName": "Logger",
+      "threadName": "[MuleRuntime].uber.39: [phm-aph-prchs-ord-ack-eapi-dev].audit-logging-flow.CPU_LITE @6d6d1c5d",
+      "timestamp": 1614272274370,
+      "message": "event:9a2d3be0-778a-11eb-b90f-06c31afdcdce >>> CSF Audit Response<<< {\n  \"status\": \"Success\",\n  \"message\": \"Message published to audit Anypoint MQ\"\n}",
+      "priority": "INFO",
+      "instanceId": "602d070774eb9251b26f6ede-0"
+    },
+    {
+      "loggerName": "Logger",
+      "threadName": "[MuleRuntime].uber.39: [phm-aph-prchs-ord-ack-eapi-dev].phm-aph-prchs-ord-ack-main-flow.CPU_LITE @de74138",
+      "timestamp": 1614272277362,
+      "message": "event:9a2d3be0-778a-11eb-b90f-06c31afdcdce Response received from Papi is : {\n  \"status\": \"Success\",\n  \"code\": \"JNJ101\",\n  \"message\": \"Order Updated Successfully\",\n  \"CARTOrderId\": \"US-TCPTRT012-10247604-01\"\n}",
+      "priority": "INFO",
+      "instanceId": "602d070774eb9251b26f6ede-0"
+    },
+    {
+      "loggerName": "Logger",
+      "threadName": "[MuleRuntime].uber.41: [phm-aph-prchs-ord-ack-eapi-dev].audit-logging-flow.CPU_INTENSIVE @74744b1d",
+      "timestamp": 1614272277371,
+      "message": "event:9a2d3be0-778a-11eb-b90f-06c31afdcdce >>>Audit Message On Complete phase <<<  {\n  \"appName\": \"phm-aph-prchs-ord-ack-eapi-dev\",\n  \"flowName\": \"phm-aph-prchs-ord-ack-main-flow\",\n  \"serviceName\": \"phm-aph-prchs-ord-ack Experience API\",\n  \"messageType\": \"audit\",\n  \"integrationType\": \"Real-Time\",\n  \"transactionLevel\": \"EXIT\",\n  \"transactionId\": \"0b091f89-047e-473d-a042-0521143b23b8\",\n  \"coorelationId\": \"9a2d3be0-778a-11eb-b90f-06c31afdcdce\",\n  \"businessId\": \"US-TCPTRT012-10247604-01\",\n  \"timestamp\": \"2021-02-25T16:57:57Z\",\n  \"sourceSystem\": \"SAP\",\n  \"targetSystem\": \"Salesforce\",\n  \"isNotificationRequired\": \"No\",\n  \"environment\": \"dev\",\n  \"logInfo\": \"Audit Message On Complete Phase\"\n} ",
+      "priority": "INFO",
+      "instanceId": "602d070774eb9251b26f6ede-0"
+    },
+    {
+      "loggerName": "Logger",
+      "threadName": "[MuleRuntime].uber.39: [phm-aph-prchs-ord-ack-eapi-dev].audit-logging-flow.CPU_LITE @6d6d1c5d",
+      "timestamp": 1614272277557,
+      "message": "event:9a2d3be0-778a-11eb-b90f-06c31afdcdce >>> CSF Audit Response<<< {\n  \"status\": \"Success\",\n  \"message\": \"Message published to audit Anypoint MQ\"\n}",
+      "priority": "INFO",
+      "instanceId": "602d070774eb9251b26f6ede-0"
+    },
+    {
+      "loggerName": "com.mulesoft.mule.runtime.gw.deployment.runnable.ClientsRunnable",
+      "threadName": "agw-contract-polling.01",
+      "timestamp": 1614274115571,
+      "message": "Failed to obtain contracts for API 'API phm-slot-availability-sapi-v1-v1:16234991 (16234991)'. This request will be retried after some backoff time. Reason: com.mulesoft.mule.runtime.gw.client.exception.HttpResponseException: Unable to retrieve contracts for 16234991",
+      "priority": "WARN",
+      "instanceId": "602d070774eb9251b26f6ede-0"
+    },
+    {
+      "loggerName": "com.mulesoft.mule.runtime.gw.deployment.runnable.ClientsRunnable",
+      "threadName": "agw-contract-polling.01",
+      "timestamp": 1614277757271,
+      "message": "Failed to obtain contracts for API 'API phm-slot-availability-sapi-v1-v1:16234991 (16234991)'. This request will be retried after some backoff time. Reason: com.mulesoft.mule.runtime.gw.client.exception.HttpResponseException: Unable to retrieve contracts for 16234991",
+      "priority": "WARN",
+      "instanceId": "602d070774eb9251b26f6ede-0"
+    },
+    {
+      "loggerName": "com.mulesoft.mule.runtime.gw.deployment.runnable.ClientsRunnable",
+      "threadName": "agw-contract-polling.01",
+      "timestamp": 1614281395052,
+      "message": "Failed to obtain contracts for API 'API phm-slot-availability-sapi-v1-v1:16234991 (16234991)'. This request will be retried after some backoff time. Reason: com.mulesoft.mule.runtime.gw.client.exception.HttpResponseException: Unable to retrieve contracts for 16234991",
+      "priority": "WARN",
+      "instanceId": "602d070774eb9251b26f6ede-0"
+    },
+    {
+      "loggerName": "com.mulesoft.mule.runtime.gw.deployment.runnable.ClientsRunnable",
+      "threadName": "agw-contract-polling.01",
+      "timestamp": 1614285034291,
+      "message": "Failed to obtain contracts for API 'API phm-slot-availability-sapi-v1-v1:16234991 (16234991)'. This request will be retried after some backoff time. Reason: com.mulesoft.mule.runtime.gw.client.exception.HttpResponseException: Unable to retrieve contracts for 16234991",
+      "priority": "WARN",
+      "instanceId": "602d070774eb9251b26f6ede-0"
+    },
+    {
+      "loggerName": "com.mulesoft.mule.runtime.gw.deployment.runnable.ClientsRunnable",
+      "threadName": "agw-contract-polling.01",
+      "timestamp": 1614288670796,
+      "message": "Failed to obtain contracts for API 'API phm-slot-availability-sapi-v1-v1:16234991 (16234991)'. This request will be retried after some backoff time. Reason: com.mulesoft.mule.runtime.gw.client.exception.HttpResponseException: Unable to retrieve contracts for 16234991",
+      "priority": "WARN",
+      "instanceId": "602d070774eb9251b26f6ede-0"
+    },
+    {
+      "loggerName": "com.mulesoft.mule.runtime.gw.deployment.runnable.ClientsRunnable",
+      "threadName": "agw-contract-polling.01",
+      "timestamp": 1614292296917,
+      "message": "Failed to obtain contracts for API 'API phm-slot-availability-sapi-v1-v1:16234991 (16234991)'. This request will be retried after some backoff time. Reason: com.mulesoft.mule.runtime.gw.client.exception.HttpResponseException: Unable to retrieve contracts for 16234991",
+      "priority": "WARN",
+      "instanceId": "602d070774eb9251b26f6ede-0"
+    },
+    {
+      "loggerName": "com.mulesoft.mule.runtime.gw.deployment.runnable.ApiKeepAliveRunnable",
+      "threadName": "agw-api-keep-alive.01",
+      "timestamp": 1614295927389,
+      "message": "Failed to perform keep alive request for API 'API phm-slot-availability-sapi-v1-v1:16234991 (16234991)'. This request will be retried after some backoff time. Reason: com.mulesoft.mule.runtime.gw.client.exception.HttpResponseException: Unable to activate endpoint for 16234991",
+      "priority": "WARN",
+      "instanceId": "602d070774eb9251b26f6ede-0"
+    },
+    {
+      "loggerName": "Logger",
+      "threadName": "[MuleRuntime].uber.42: [phm-aph-prchs-ord-ack-eapi-dev].phm-aph-prchs-ord-ack-api-flow.CPU_LITE @2155bf0d",
+      "timestamp": 1614359040295,
+      "message": "event:9ed99e20-7854-11eb-b90f-06c31afdcdce Request Payload : {\"CARTOrderId\":\"US-MACR100-10247609-01\",\"salesOrderNo\":\"0040008703\",\"apheresisPurchaseOrderNo\":\"0600030289\",\"batchNumber\":\"21BC0911\"}",
+      "priority": "INFO",
+      "instanceId": "602d070774eb9251b26f6ede-0"
+    },
+    {
+      "loggerName": "Logger",
+      "threadName": "[MuleRuntime].uber.39: [phm-aph-prchs-ord-ack-eapi-dev].audit-logging-flow.CPU_INTENSIVE @74744b1d",
+      "timestamp": 1614359040306,
+      "message": "event:9ed99e20-7854-11eb-b90f-06c31afdcdce >>>Audit Message On Initiate phase <<<  {\n  \"appName\": \"phm-aph-prchs-ord-ack-eapi-dev\",\n  \"flowName\": \"phm-aph-prchs-ord-ack-api-flow\",\n  \"serviceName\": \"phm-aph-prchs-ord-ack Experience API\",\n  \"messageType\": \"audit\",\n  \"integrationType\": \"Real-Time\",\n  \"transactionLevel\": \"ENTRY\",\n  \"transactionId\": \"1a477044-2411-4e79-b209-c33b98102c19\",\n  \"coorelationId\": \"9ed99e20-7854-11eb-b90f-06c31afdcdce\",\n  \"businessId\": \"\",\n  \"timestamp\": \"2021-02-26T17:04:00Z\",\n  \"sourceSystem\": \"SAP\",\n  \"targetSystem\": \"Salesforce\",\n  \"isNotificationRequired\": \"No\",\n  \"environment\": \"dev\",\n  \"logInfo\": \"Audit Message On Initiate Phase\"\n} ",
+      "priority": "INFO",
+      "instanceId": "602d070774eb9251b26f6ede-0"
+    },
+    {
+      "loggerName": "org.mule.runtime.core.internal.processor.LoggerMessageProcessor",
+      "threadName": "[MuleRuntime].uber.43: [phm-aph-prchs-ord-ack-eapi-dev].phm-aph-prchs-ord-ack-main-flow.CPU_LITE @de74138",
+      "timestamp": 1614359040314,
+      "message": "event:9ed99e20-7854-11eb-b90f-06c31afdcdce Correlation Id is : corrId123",
+      "priority": "INFO",
+      "instanceId": "602d070774eb9251b26f6ede-0"
+    },
+    {
+      "loggerName": "Logger",
+      "threadName": "[MuleRuntime].uber.44: [phm-aph-prchs-ord-ack-eapi-dev].audit-logging-flow.CPU_LITE @6d6d1c5d",
+      "timestamp": 1614359040526,
+      "message": "event:9ed99e20-7854-11eb-b90f-06c31afdcdce >>> CSF Audit Response<<< {\n  \"status\": \"Success\",\n  \"message\": \"Message published to audit Anypoint MQ\"\n}",
+      "priority": "INFO",
+      "instanceId": "602d070774eb9251b26f6ede-0"
+    },
+    {
+      "loggerName": "Logger",
+      "threadName": "[MuleRuntime].uber.44: [phm-aph-prchs-ord-ack-eapi-dev].phm-aph-prchs-ord-ack-main-flow.CPU_LITE @de74138",
+      "timestamp": 1614359044978,
+      "message": "event:9ed99e20-7854-11eb-b90f-06c31afdcdce Response received from Papi is : {\n  \"status\": \"Success\",\n  \"code\": \"JNJ101\",\n  \"message\": \"Order Updated Successfully\",\n  \"CARTOrderId\": \"US-MACR100-10247609-01\"\n}",
+      "priority": "INFO",
+      "instanceId": "602d070774eb9251b26f6ede-0"
+    },
+    {
+      "loggerName": "Logger",
+      "threadName": "[MuleRuntime].uber.43: [phm-aph-prchs-ord-ack-eapi-dev].audit-logging-flow.CPU_INTENSIVE @74744b1d",
+      "timestamp": 1614359044992,
+      "message": "event:9ed99e20-7854-11eb-b90f-06c31afdcdce >>>Audit Message On Complete phase <<<  {\n  \"appName\": \"phm-aph-prchs-ord-ack-eapi-dev\",\n  \"flowName\": \"phm-aph-prchs-ord-ack-main-flow\",\n  \"serviceName\": \"phm-aph-prchs-ord-ack Experience API\",\n  \"messageType\": \"audit\",\n  \"integrationType\": \"Real-Time\",\n  \"transactionLevel\": \"EXIT\",\n  \"transactionId\": \"1a477044-2411-4e79-b209-c33b98102c19\",\n  \"coorelationId\": \"9ed99e20-7854-11eb-b90f-06c31afdcdce\",\n  \"businessId\": \"US-MACR100-10247609-01\",\n  \"timestamp\": \"2021-02-26T17:04:04Z\",\n  \"sourceSystem\": \"SAP\",\n  \"targetSystem\": \"Salesforce\",\n  \"isNotificationRequired\": \"No\",\n  \"environment\": \"dev\",\n  \"logInfo\": \"Audit Message On Complete Phase\"\n} ",
+      "priority": "INFO",
+      "instanceId": "602d070774eb9251b26f6ede-0"
+    },
+    {
+      "loggerName": "Logger",
+      "threadName": "[MuleRuntime].uber.39: [phm-aph-prchs-ord-ack-eapi-dev].audit-logging-flow.CPU_LITE @6d6d1c5d",
+      "timestamp": 1614359045457,
+      "message": "event:9ed99e20-7854-11eb-b90f-06c31afdcdce >>> CSF Audit Response<<< {\n  \"status\": \"Success\",\n  \"message\": \"Message published to audit Anypoint MQ\"\n}",
+      "priority": "INFO",
+      "instanceId": "602d070774eb9251b26f6ede-0"
+    },
+    {
+      "loggerName": "Logger",
+      "threadName": "[MuleRuntime].uber.45: [phm-aph-prchs-ord-ack-eapi-dev].phm-aph-prchs-ord-ack-api-flow.CPU_LITE @2155bf0d",
+      "timestamp": 1614359670366,
+      "message": "event:166991b0-7856-11eb-b90f-06c31afdcdce Request Payload : {\"CARTOrderId\":\"US-MACR100-10247611-01\",\"salesOrderNo\":\"0040008704\",\"apheresisPurchaseOrderNo\":\"0600030369\",\"batchNumber\":\"21BC0912\"}",
+      "priority": "INFO",
+      "instanceId": "602d070774eb9251b26f6ede-0"
+    },
+    {
+      "loggerName": "Logger",
+      "threadName": "[MuleRuntime].uber.39: [phm-aph-prchs-ord-ack-eapi-dev].audit-logging-flow.CPU_INTENSIVE @74744b1d",
+      "timestamp": 1614359670387,
+      "message": "event:166991b0-7856-11eb-b90f-06c31afdcdce >>>Audit Message On Initiate phase <<<  {\n  \"appName\": \"phm-aph-prchs-ord-ack-eapi-dev\",\n  \"flowName\": \"phm-aph-prchs-ord-ack-api-flow\",\n  \"serviceName\": \"phm-aph-prchs-ord-ack Experience API\",\n  \"messageType\": \"audit\",\n  \"integrationType\": \"Real-Time\",\n  \"transactionLevel\": \"ENTRY\",\n  \"transactionId\": \"03097a12-e015-4f11-ac70-ea90f484f281\",\n  \"coorelationId\": \"166991b0-7856-11eb-b90f-06c31afdcdce\",\n  \"businessId\": \"\",\n  \"timestamp\": \"2021-02-26T17:14:30Z\",\n  \"sourceSystem\": \"SAP\",\n  \"targetSystem\": \"Salesforce\",\n  \"isNotificationRequired\": \"No\",\n  \"environment\": \"dev\",\n  \"logInfo\": \"Audit Message On Initiate Phase\"\n} ",
+      "priority": "INFO",
+      "instanceId": "602d070774eb9251b26f6ede-0"
+    },
+    {
+      "loggerName": "org.mule.runtime.core.internal.processor.LoggerMessageProcessor",
+      "threadName": "[MuleRuntime].uber.46: [phm-aph-prchs-ord-ack-eapi-dev].phm-aph-prchs-ord-ack-main-flow.CPU_LITE @de74138",
+      "timestamp": 1614359670393,
+      "message": "event:166991b0-7856-11eb-b90f-06c31afdcdce Correlation Id is : corrId123",
+      "priority": "INFO",
+      "instanceId": "602d070774eb9251b26f6ede-0"
+    },
+    {
+      "loggerName": "Logger",
+      "threadName": "[MuleRuntime].uber.45: [phm-aph-prchs-ord-ack-eapi-dev].audit-logging-flow.CPU_LITE @6d6d1c5d",
+      "timestamp": 1614359670580,
+      "message": "event:166991b0-7856-11eb-b90f-06c31afdcdce >>> CSF Audit Response<<< {\n  \"status\": \"Success\",\n  \"message\": \"Message published to audit Anypoint MQ\"\n}",
+      "priority": "INFO",
+      "instanceId": "602d070774eb9251b26f6ede-0"
+    },
+    {
+      "loggerName": "Logger",
+      "threadName": "[MuleRuntime].uber.45: [phm-aph-prchs-ord-ack-eapi-dev].phm-aph-prchs-ord-ack-main-flow.CPU_LITE @de74138",
+      "timestamp": 1614359672648,
+      "message": "event:166991b0-7856-11eb-b90f-06c31afdcdce Response received from Papi is : {\n  \"status\": \"Success\",\n  \"code\": \"JNJ101\",\n  \"message\": \"Order Updated Successfully\",\n  \"CARTOrderId\": \"US-MACR100-10247611-01\"\n}",
+      "priority": "INFO",
+      "instanceId": "602d070774eb9251b26f6ede-0"
+    },
+    {
+      "loggerName": "Logger",
+      "threadName": "[MuleRuntime].uber.39: [phm-aph-prchs-ord-ack-eapi-dev].audit-logging-flow.CPU_INTENSIVE @74744b1d",
+      "timestamp": 1614359672658,
+      "message": "event:166991b0-7856-11eb-b90f-06c31afdcdce >>>Audit Message On Complete phase <<<  {\n  \"appName\": \"phm-aph-prchs-ord-ack-eapi-dev\",\n  \"flowName\": \"phm-aph-prchs-ord-ack-main-flow\",\n  \"serviceName\": \"phm-aph-prchs-ord-ack Experience API\",\n  \"messageType\": \"audit\",\n  \"integrationType\": \"Real-Time\",\n  \"transactionLevel\": \"EXIT\",\n  \"transactionId\": \"03097a12-e015-4f11-ac70-ea90f484f281\",\n  \"coorelationId\": \"166991b0-7856-11eb-b90f-06c31afdcdce\",\n  \"businessId\": \"US-MACR100-10247611-01\",\n  \"timestamp\": \"2021-02-26T17:14:32Z\",\n  \"sourceSystem\": \"SAP\",\n  \"targetSystem\": \"Salesforce\",\n  \"isNotificationRequired\": \"No\",\n  \"environment\": \"dev\",\n  \"logInfo\": \"Audit Message On Complete Phase\"\n} ",
+      "priority": "INFO",
+      "instanceId": "602d070774eb9251b26f6ede-0"
+    },
+    {
+      "loggerName": "Logger",
+      "threadName": "[MuleRuntime].uber.45: [phm-aph-prchs-ord-ack-eapi-dev].audit-logging-flow.CPU_LITE @6d6d1c5d",
+      "timestamp": 1614359672809,
+      "message": "event:166991b0-7856-11eb-b90f-06c31afdcdce >>> CSF Audit Response<<< {\n  \"status\": \"Success\",\n  \"message\": \"Message published to audit Anypoint MQ\"\n}",
+      "priority": "INFO",
+      "instanceId": "602d070774eb9251b26f6ede-0"
+    },
+    {
+      "loggerName": "Logger",
+      "threadName": "[MuleRuntime].uber.47: [phm-aph-prchs-ord-ack-eapi-dev].phm-aph-prchs-ord-ack-api-flow.CPU_LITE @2155bf0d",
+      "timestamp": 1614360380989,
+      "message": "event:bdfb1a10-7857-11eb-b90f-06c31afdcdce Request Payload : {\"CARTOrderId\":\"US-MACR100-10247614-01\",\"salesOrderNo\":\"0040008705\",\"apheresisPurchaseOrderNo\":\"0600030291\",\"batchNumber\":\"21BC0913\"}",
+      "priority": "INFO",
+      "instanceId": "602d070774eb9251b26f6ede-0"
+    },
+    {
+      "loggerName": "org.mule.runtime.core.internal.processor.LoggerMessageProcessor",
+      "threadName": "[MuleRuntime].uber.45: [phm-aph-prchs-ord-ack-eapi-dev].phm-aph-prchs-ord-ack-main-flow.CPU_LITE @de74138",
+      "timestamp": 1614360380996,
+      "message": "event:bdfb1a10-7857-11eb-b90f-06c31afdcdce Correlation Id is : corrId123",
+      "priority": "INFO",
+      "instanceId": "602d070774eb9251b26f6ede-0"
+    },
+    {
+      "loggerName": "Logger",
+      "threadName": "[MuleRuntime].uber.49: [phm-aph-prchs-ord-ack-eapi-dev].audit-logging-flow.CPU_INTENSIVE @74744b1d",
+      "timestamp": 1614360381003,
+      "message": "event:bdfb1a10-7857-11eb-b90f-06c31afdcdce >>>Audit Message On Initiate phase <<<  {\n  \"appName\": \"phm-aph-prchs-ord-ack-eapi-dev\",\n  \"flowName\": \"phm-aph-prchs-ord-ack-api-flow\",\n  \"serviceName\": \"phm-aph-prchs-ord-ack Experience API\",\n  \"messageType\": \"audit\",\n  \"integrationType\": \"Real-Time\",\n  \"transactionLevel\": \"ENTRY\",\n  \"transactionId\": \"2d8a0e20-9c44-4075-806c-e3295bde2ab1\",\n  \"coorelationId\": \"bdfb1a10-7857-11eb-b90f-06c31afdcdce\",\n  \"businessId\": \"\",\n  \"timestamp\": \"2021-02-26T17:26:20Z\",\n  \"sourceSystem\": \"SAP\",\n  \"targetSystem\": \"Salesforce\",\n  \"isNotificationRequired\": \"No\",\n  \"environment\": \"dev\",\n  \"logInfo\": \"Audit Message On Initiate Phase\"\n} ",
+      "priority": "INFO",
+      "instanceId": "602d070774eb9251b26f6ede-0"
+    },
+    {
+      "loggerName": "Logger",
+      "threadName": "[MuleRuntime].uber.48: [phm-aph-prchs-ord-ack-eapi-dev].audit-logging-flow.CPU_LITE @6d6d1c5d",
+      "timestamp": 1614360381211,
+      "message": "event:bdfb1a10-7857-11eb-b90f-06c31afdcdce >>> CSF Audit Response<<< {\n  \"status\": \"Success\",\n  \"message\": \"Message published to audit Anypoint MQ\"\n}",
+      "priority": "INFO",
+      "instanceId": "602d070774eb9251b26f6ede-0"
+    },
+    {
+      "loggerName": "Logger",
+      "threadName": "[MuleRuntime].uber.48: [phm-aph-prchs-ord-ack-eapi-dev].phm-aph-prchs-ord-ack-main-flow.CPU_LITE @de74138",
+      "timestamp": 1614360385218,
+      "message": "event:bdfb1a10-7857-11eb-b90f-06c31afdcdce Response received from Papi is : {\n  \"status\": \"Success\",\n  \"code\": \"JNJ101\",\n  \"message\": \"Order Updated Successfully\",\n  \"CARTOrderId\": \"US-MACR100-10247614-01\"\n}",
+      "priority": "INFO",
+      "instanceId": "602d070774eb9251b26f6ede-0"
+    },
+    {
+      "loggerName": "Logger",
+      "threadName": "[MuleRuntime].uber.49: [phm-aph-prchs-ord-ack-eapi-dev].audit-logging-flow.CPU_INTENSIVE @74744b1d",
+      "timestamp": 1614360385228,
+      "message": "event:bdfb1a10-7857-11eb-b90f-06c31afdcdce >>>Audit Message On Complete phase <<<  {\n  \"appName\": \"phm-aph-prchs-ord-ack-eapi-dev\",\n  \"flowName\": \"phm-aph-prchs-ord-ack-main-flow\",\n  \"serviceName\": \"phm-aph-prchs-ord-ack Experience API\",\n  \"messageType\": \"audit\",\n  \"integrationType\": \"Real-Time\",\n  \"transactionLevel\": \"EXIT\",\n  \"transactionId\": \"2d8a0e20-9c44-4075-806c-e3295bde2ab1\",\n  \"coorelationId\": \"bdfb1a10-7857-11eb-b90f-06c31afdcdce\",\n  \"businessId\": \"US-MACR100-10247614-01\",\n  \"timestamp\": \"2021-02-26T17:26:25Z\",\n  \"sourceSystem\": \"SAP\",\n  \"targetSystem\": \"Salesforce\",\n  \"isNotificationRequired\": \"No\",\n  \"environment\": \"dev\",\n  \"logInfo\": \"Audit Message On Complete Phase\"\n} ",
+      "priority": "INFO",
+      "instanceId": "602d070774eb9251b26f6ede-0"
+    },
+    {
+      "loggerName": "Logger",
+      "threadName": "[MuleRuntime].uber.48: [phm-aph-prchs-ord-ack-eapi-dev].audit-logging-flow.CPU_LITE @6d6d1c5d",
+      "timestamp": 1614360385389,
+      "message": "event:bdfb1a10-7857-11eb-b90f-06c31afdcdce >>> CSF Audit Response<<< {\n  \"status\": \"Success\",\n  \"message\": \"Message published to audit Anypoint MQ\"\n}",
+      "priority": "INFO",
+      "instanceId": "602d070774eb9251b26f6ede-0"
+    },
+    {
+      "loggerName": "com.mulesoft.mule.runtime.gw.deployment.runnable.ClientsRunnable",
+      "threadName": "agw-contract-polling.01",
+      "timestamp": 1614495840043,
+      "message": "Failed to obtain contracts for API 'API phm-slot-availability-sapi-v1-v1:16234991 (16234991)'. This request will be retried after some backoff time. Reason: com.mulesoft.mule.runtime.gw.client.exception.HttpConnectionException: Unable to execute HTTP Request. Reason: org.apache.http.conn.ConnectionPoolTimeoutException: Timeout waiting for connection from pool",
+      "priority": "WARN",
+      "instanceId": "602d070774eb9251b26f6ede-0"
+    },
+    {
+      "loggerName": "com.mulesoft.mule.runtime.gw.deployment.runnable.ApisRunnable",
+      "threadName": "agw-policy-polling.01",
+      "timestamp": 1614495907342,
+      "message": "Failed to retrieve API information for API 'API phm-slot-availability-sapi-v1-v1:16234991 (16234991)'. This request will be retried after some backoff time. Reason: com.mulesoft.mule.runtime.gw.client.exception.HttpConnectionException: Unable to execute HTTP Request. Reason: org.apache.http.conn.ConnectTimeoutException: Connect to anypoint.mulesoft.com:443 [anypoint.mulesoft.com/54.161.215.133, anypoint.mulesoft.com/18.210.170.229, anypoint.mulesoft.com/3.223.254.74, anypoint.mulesoft.com/3.210.81.106, anypoint.mulesoft.com/52.73.176.244, anypoint.mulesoft.com/18.204.150.130, anypoint.mulesoft.com/3.213.24.41, anypoint.mulesoft.com/52.0.218.207] failed: connect timed out",
+      "priority": "WARN",
+      "instanceId": "602d070774eb9251b26f6ede-0"
+    },
+    {
+      "loggerName": "com.mulesoft.mule.runtime.gw.deployment.runnable.ApiKeepAliveRunnable",
+      "threadName": "agw-api-keep-alive.01",
+      "timestamp": 1614691338451,
+      "message": "Failed to perform keep alive request for API 'API phm-slot-availability-sapi-v1-v1:16234991 (16234991)'. This request will be retried after some backoff time. Reason: com.mulesoft.mule.runtime.gw.client.exception.HttpConnectionException: Unable to execute HTTP Request. Reason: java.net.SocketTimeoutException: Read timed out",
+      "priority": "WARN",
+      "instanceId": "602d070774eb9251b26f6ede-0"
+    },
+    {
+      "loggerName": "Logger",
+      "threadName": "[MuleRuntime].uber.50: [phm-aph-prchs-ord-ack-eapi-dev].phm-aph-prchs-ord-ack-api-flow.CPU_LITE @2155bf0d",
+      "timestamp": 1614710297439,
+      "message": "event:746ee1b0-7b86-11eb-b90f-06c31afdcdce Request Payload : {\"CARTOrderId\":\"US-MACR100-10247632-01\",\"salesOrderNo\":\"0040008728\",\"apheresisPurchaseOrderNo\":\"0600030634\",\"batchNumber\":\"21CC0934\"}",
+      "priority": "INFO",
+      "instanceId": "602d070774eb9251b26f6ede-0"
+    },
+    {
+      "loggerName": "Logger",
+      "threadName": "[MuleRuntime].uber.48: [phm-aph-prchs-ord-ack-eapi-dev].audit-logging-flow.CPU_INTENSIVE @74744b1d",
+      "timestamp": 1614710297456,
+      "message": "event:746ee1b0-7b86-11eb-b90f-06c31afdcdce >>>Audit Message On Initiate phase <<<  {\n  \"appName\": \"phm-aph-prchs-ord-ack-eapi-dev\",\n  \"flowName\": \"phm-aph-prchs-ord-ack-api-flow\",\n  \"serviceName\": \"phm-aph-prchs-ord-ack Experience API\",\n  \"messageType\": \"audit\",\n  \"integrationType\": \"Real-Time\",\n  \"transactionLevel\": \"ENTRY\",\n  \"transactionId\": \"d0503a5d-4800-4618-9768-6863b564993e\",\n  \"coorelationId\": \"746ee1b0-7b86-11eb-b90f-06c31afdcdce\",\n  \"businessId\": \"\",\n  \"timestamp\": \"2021-03-02T18:38:17Z\",\n  \"sourceSystem\": \"SAP\",\n  \"targetSystem\": \"Salesforce\",\n  \"isNotificationRequired\": \"No\",\n  \"environment\": \"dev\",\n  \"logInfo\": \"Audit Message On Initiate Phase\"\n} ",
+      "priority": "INFO",
+      "instanceId": "602d070774eb9251b26f6ede-0"
+    },
+    {
+      "loggerName": "org.mule.runtime.core.internal.processor.LoggerMessageProcessor",
+      "threadName": "[MuleRuntime].uber.51: [phm-aph-prchs-ord-ack-eapi-dev].phm-aph-prchs-ord-ack-main-flow.CPU_LITE @de74138",
+      "timestamp": 1614710297463,
+      "message": "event:746ee1b0-7b86-11eb-b90f-06c31afdcdce Correlation Id is : corrId123",
+      "priority": "INFO",
+      "instanceId": "602d070774eb9251b26f6ede-0"
+    },
+    {
+      "loggerName": "Logger",
+      "threadName": "[MuleRuntime].uber.50: [phm-aph-prchs-ord-ack-eapi-dev].audit-logging-flow.CPU_LITE @6d6d1c5d",
+      "timestamp": 1614710297660,
+      "message": "event:746ee1b0-7b86-11eb-b90f-06c31afdcdce >>> CSF Audit Response<<< {\n  \"status\": \"Success\",\n  \"message\": \"Message published to audit Anypoint MQ\"\n}",
+      "priority": "INFO",
+      "instanceId": "602d070774eb9251b26f6ede-0"
+    },
+    {
+      "loggerName": "Logger",
+      "threadName": "[MuleRuntime].uber.50: [phm-aph-prchs-ord-ack-eapi-dev].phm-aph-prchs-ord-ack-main-flow.CPU_LITE @de74138",
+      "timestamp": 1614710304883,
+      "message": "event:746ee1b0-7b86-11eb-b90f-06c31afdcdce Response received from Papi is : {\n  \"status\": \"Success\",\n  \"code\": \"JNJ101\",\n  \"message\": \"Order Updated Successfully\",\n  \"CARTOrderId\": \"US-MACR100-10247632-01\"\n}",
+      "priority": "INFO",
+      "instanceId": "602d070774eb9251b26f6ede-0"
+    },
+    {
+      "loggerName": "Logger",
+      "threadName": "[MuleRuntime].uber.51: [phm-aph-prchs-ord-ack-eapi-dev].audit-logging-flow.CPU_INTENSIVE @74744b1d",
+      "timestamp": 1614710304897,
+      "message": "event:746ee1b0-7b86-11eb-b90f-06c31afdcdce >>>Audit Message On Complete phase <<<  {\n  \"appName\": \"phm-aph-prchs-ord-ack-eapi-dev\",\n  \"flowName\": \"phm-aph-prchs-ord-ack-main-flow\",\n  \"serviceName\": \"phm-aph-prchs-ord-ack Experience API\",\n  \"messageType\": \"audit\",\n  \"integrationType\": \"Real-Time\",\n  \"transactionLevel\": \"EXIT\",\n  \"transactionId\": \"d0503a5d-4800-4618-9768-6863b564993e\",\n  \"coorelationId\": \"746ee1b0-7b86-11eb-b90f-06c31afdcdce\",\n  \"businessId\": \"US-MACR100-10247632-01\",\n  \"timestamp\": \"2021-03-02T18:38:24Z\",\n  \"sourceSystem\": \"SAP\",\n  \"targetSystem\": \"Salesforce\",\n  \"isNotificationRequired\": \"No\",\n  \"environment\": \"dev\",\n  \"logInfo\": \"Audit Message On Complete Phase\"\n} ",
+      "priority": "INFO",
+      "instanceId": "602d070774eb9251b26f6ede-0"
+    },
+    {
+      "loggerName": "Logger",
+      "threadName": "[MuleRuntime].uber.51: [phm-aph-prchs-ord-ack-eapi-dev].audit-logging-flow.CPU_LITE @6d6d1c5d",
+      "timestamp": 1614710305079,
+      "message": "event:746ee1b0-7b86-11eb-b90f-06c31afdcdce >>> CSF Audit Response<<< {\n  \"status\": \"Success\",\n  \"message\": \"Message published to audit Anypoint MQ\"\n}",
+      "priority": "INFO",
+      "instanceId": "602d070774eb9251b26f6ede-0"
+    },
+    {
+      "loggerName": "Logger",
+      "threadName": "[MuleRuntime].uber.52: [phm-aph-prchs-ord-ack-eapi-dev].phm-aph-prchs-ord-ack-api-flow.CPU_LITE @2155bf0d",
+      "timestamp": 1614718301037,
+      "message": "event:16f43d10-7b99-11eb-b90f-06c31afdcdce Request Payload : {\"CARTOrderId\":\"US-MACR100-10247633-01\",\"salesOrderNo\":\"0040008729\",\"apheresisPurchaseOrderNo\":\"0600030636\",\"batchNumber\":\"21CC0936\"}",
+      "priority": "INFO",
+      "instanceId": "602d070774eb9251b26f6ede-0"
+    },
+    {
+      "loggerName": "org.mule.runtime.core.internal.processor.LoggerMessageProcessor",
+      "threadName": "[MuleRuntime].uber.51: [phm-aph-prchs-ord-ack-eapi-dev].phm-aph-prchs-ord-ack-main-flow.CPU_LITE @de74138",
+      "timestamp": 1614718301044,
+      "message": "event:16f43d10-7b99-11eb-b90f-06c31afdcdce Correlation Id is : corrId123",
+      "priority": "INFO",
+      "instanceId": "602d070774eb9251b26f6ede-0"
+    },
+    {
+      "loggerName": "Logger",
+      "threadName": "[MuleRuntime].uber.52: [phm-aph-prchs-ord-ack-eapi-dev].audit-logging-flow.CPU_INTENSIVE @74744b1d",
+      "timestamp": 1614718301045,
+      "message": "event:16f43d10-7b99-11eb-b90f-06c31afdcdce >>>Audit Message On Initiate phase <<<  {\n  \"appName\": \"phm-aph-prchs-ord-ack-eapi-dev\",\n  \"flowName\": \"phm-aph-prchs-ord-ack-api-flow\",\n  \"serviceName\": \"phm-aph-prchs-ord-ack Experience API\",\n  \"messageType\": \"audit\",\n  \"integrationType\": \"Real-Time\",\n  \"transactionLevel\": \"ENTRY\",\n  \"transactionId\": \"72586d25-7d0a-4061-9b95-39834d804166\",\n  \"coorelationId\": \"16f43d10-7b99-11eb-b90f-06c31afdcdce\",\n  \"businessId\": \"\",\n  \"timestamp\": \"2021-03-02T20:51:41Z\",\n  \"sourceSystem\": \"SAP\",\n  \"targetSystem\": \"Salesforce\",\n  \"isNotificationRequired\": \"No\",\n  \"environment\": \"dev\",\n  \"logInfo\": \"Audit Message On Initiate Phase\"\n} ",
+      "priority": "INFO",
+      "instanceId": "602d070774eb9251b26f6ede-0"
+    },
+    {
+      "loggerName": "Logger",
+      "threadName": "[MuleRuntime].uber.53: [phm-aph-prchs-ord-ack-eapi-dev].audit-logging-flow.CPU_LITE @6d6d1c5d",
+      "timestamp": 1614718301297,
+      "message": "event:16f43d10-7b99-11eb-b90f-06c31afdcdce >>> CSF Audit Response<<< {\n  \"status\": \"Success\",\n  \"message\": \"Message published to audit Anypoint MQ\"\n}",
+      "priority": "INFO",
+      "instanceId": "602d070774eb9251b26f6ede-0"
+    },
+    {
+      "loggerName": "Logger",
+      "threadName": "[MuleRuntime].uber.53: [phm-aph-prchs-ord-ack-eapi-dev].phm-aph-prchs-ord-ack-main-flow.CPU_LITE @de74138",
+      "timestamp": 1614718303267,
+      "message": "event:16f43d10-7b99-11eb-b90f-06c31afdcdce Response received from Papi is : {\n  \"status\": \"Success\",\n  \"code\": \"JNJ101\",\n  \"message\": \"Order Updated Successfully\",\n  \"CARTOrderId\": \"US-MACR100-10247633-01\"\n}",
+      "priority": "INFO",
+      "instanceId": "602d070774eb9251b26f6ede-0"
+    },
+    {
+      "loggerName": "Logger",
+      "threadName": "[MuleRuntime].uber.51: [phm-aph-prchs-ord-ack-eapi-dev].audit-logging-flow.CPU_INTENSIVE @74744b1d",
+      "timestamp": 1614718303275,
+      "message": "event:16f43d10-7b99-11eb-b90f-06c31afdcdce >>>Audit Message On Complete phase <<<  {\n  \"appName\": \"phm-aph-prchs-ord-ack-eapi-dev\",\n  \"flowName\": \"phm-aph-prchs-ord-ack-main-flow\",\n  \"serviceName\": \"phm-aph-prchs-ord-ack Experience API\",\n  \"messageType\": \"audit\",\n  \"integrationType\": \"Real-Time\",\n  \"transactionLevel\": \"EXIT\",\n  \"transactionId\": \"72586d25-7d0a-4061-9b95-39834d804166\",\n  \"coorelationId\": \"16f43d10-7b99-11eb-b90f-06c31afdcdce\",\n  \"businessId\": \"US-MACR100-10247633-01\",\n  \"timestamp\": \"2021-03-02T20:51:43Z\",\n  \"sourceSystem\": \"SAP\",\n  \"targetSystem\": \"Salesforce\",\n  \"isNotificationRequired\": \"No\",\n  \"environment\": \"dev\",\n  \"logInfo\": \"Audit Message On Complete Phase\"\n} ",
+      "priority": "INFO",
+      "instanceId": "602d070774eb9251b26f6ede-0"
+    },
+    {
+      "loggerName": "Logger",
+      "threadName": "[MuleRuntime].uber.53: [phm-aph-prchs-ord-ack-eapi-dev].audit-logging-flow.CPU_LITE @6d6d1c5d",
+      "timestamp": 1614718303467,
+      "message": "event:16f43d10-7b99-11eb-b90f-06c31afdcdce >>> CSF Audit Response<<< {\n  \"status\": \"Success\",\n  \"message\": \"Message published to audit Anypoint MQ\"\n}",
+      "priority": "INFO",
+      "instanceId": "602d070774eb9251b26f6ede-0"
+    }
+  ],
+  "total": 269
+}
