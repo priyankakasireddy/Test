@@ -2,7 +2,7 @@
 language: generic
 install: true
 script:
-- mvn ./testing/pom.xml clean package
+- mvn -f ./testing/pom.xml clean package
 notifications:
   email: mani.teja435@gmail.com
   
