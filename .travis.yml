@@ -4,4 +4,5 @@ install: true
 script:
 - mvn clean package
 notifications:
-  webhooks: https://deloitte.webhook.office.com/webhookb2/56381282-b613-434f-86e8-3fa37257d786@36da45f1-dd2c-4d1f-af13-5abe46b99921/IncomingWebhook/4fa1d73b94c74656b101c6537f2ed344/c7ea791a-7da7-42bb-8224-58194cc0b32c
+  email: mani.teja435@gmail.com
+  
